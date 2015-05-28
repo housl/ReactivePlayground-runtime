@@ -18,25 +18,11 @@
 		72A2883118618A2E00DDD30A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72A2882F18618A2E00DDD30A /* Main.storyboard */; };
 		72A2883418618A2E00DDD30A /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A2883318618A2E00DDD30A /* RWViewController.m */; };
 		72A2883618618A2E00DDD30A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A2883518618A2E00DDD30A /* Images.xcassets */; };
-		72A2883D18618A2E00DDD30A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A2883C18618A2E00DDD30A /* XCTest.framework */; };
-		72A2883E18618A2E00DDD30A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A2881D18618A2E00DDD30A /* Foundation.framework */; };
-		72A2883F18618A2E00DDD30A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A2882118618A2E00DDD30A /* UIKit.framework */; };
 		72A2885418620EA100DDD30A /* RWDummySignInService.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A2885318620EA100DDD30A /* RWDummySignInService.m */; };
 		E6A110A317DB497C8849AC45 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA101CA14F04CFE84F2D353 /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		72A2884018618A2E00DDD30A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 72A2881218618A2E00DDD30A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 72A2881918618A2E00DDD30A;
-			remoteInfo = RWReactivePlayground;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		2D7DB8B2BD0B4C6F87D4494B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		2F6E0A2F1B17116700C0FDC1 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		2F6E0A301B17116700C0FDC1 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		6BA101CA14F04CFE84F2D353 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,10 +41,11 @@
 		72A2883218618A2E00DDD30A /* RWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWViewController.h; sourceTree = "<group>"; };
 		72A2883318618A2E00DDD30A /* RWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWViewController.m; sourceTree = "<group>"; };
 		72A2883518618A2E00DDD30A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		72A2883B18618A2E00DDD30A /* RWReactivePlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWReactivePlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A2883C18618A2E00DDD30A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		72A2885218620EA100DDD30A /* RWDummySignInService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWDummySignInService.h; sourceTree = "<group>"; };
 		72A2885318620EA100DDD30A /* RWDummySignInService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWDummySignInService.m; sourceTree = "<group>"; };
+		C3325A1C216DF9324EAC0F1D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F12925D33A4FD21B8854FD97 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,26 +60,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72A2883818618A2E00DDD30A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				72A2883D18618A2E00DDD30A /* XCTest.framework in Frameworks */,
-				72A2883F18618A2E00DDD30A /* UIKit.framework in Frameworks */,
-				72A2883E18618A2E00DDD30A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		169EF68E5FFF042CB9587AD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F12925D33A4FD21B8854FD97 /* Pods.debug.xcconfig */,
+				C3325A1C216DF9324EAC0F1D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		72A2881118618A2E00DDD30A = {
 			isa = PBXGroup;
 			children = (
 				72A2882318618A2E00DDD30A /* RWReactivePlayground */,
 				72A2881C18618A2E00DDD30A /* Frameworks */,
 				72A2881B18618A2E00DDD30A /* Products */,
-				2D7DB8B2BD0B4C6F87D4494B /* Pods.xcconfig */,
+				169EF68E5FFF042CB9587AD0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				72A2881A18618A2E00DDD30A /* RWReactivePlayground.app */,
-				72A2883B18618A2E00DDD30A /* RWReactivePlaygroundTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,24 +154,6 @@
 			productReference = 72A2881A18618A2E00DDD30A /* RWReactivePlayground.app */;
 			productType = "com.apple.product-type.application";
 		};
-		72A2883A18618A2E00DDD30A /* RWReactivePlaygroundTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 72A2884F18618A2E00DDD30A /* Build configuration list for PBXNativeTarget "RWReactivePlaygroundTests" */;
-			buildPhases = (
-				72A2883718618A2E00DDD30A /* Sources */,
-				72A2883818618A2E00DDD30A /* Frameworks */,
-				72A2883918618A2E00DDD30A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				72A2884118618A2E00DDD30A /* PBXTargetDependency */,
-			);
-			name = RWReactivePlaygroundTests;
-			productName = RWReactivePlaygroundTests;
-			productReference = 72A2883B18618A2E00DDD30A /* RWReactivePlaygroundTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,11 +163,6 @@
 				CLASSPREFIX = RW;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Colin Eberhardt";
-				TargetAttributes = {
-					72A2883A18618A2E00DDD30A = {
-						TestTargetID = 72A2881918618A2E00DDD30A;
-					};
-				};
 			};
 			buildConfigurationList = 72A2881518618A2E00DDD30A /* Build configuration list for PBXProject "RWReactivePlayground" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -216,7 +178,6 @@
 			projectRoot = "";
 			targets = (
 				72A2881918618A2E00DDD30A /* RWReactivePlayground */,
-				72A2883A18618A2E00DDD30A /* RWReactivePlaygroundTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,13 +191,6 @@
 				72A2883618618A2E00DDD30A /* Images.xcassets in Resources */,
 				72A2882818618A2E00DDD30A /* InfoPlist.strings in Resources */,
 				72A2883118618A2E00DDD30A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		72A2883918618A2E00DDD30A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +209,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B788A9BD03144D5F96AA1A43 /* Check Pods Manifest.lock */ = {
@@ -288,22 +242,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72A2883718618A2E00DDD30A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		72A2884118618A2E00DDD30A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 72A2881918618A2E00DDD30A /* RWReactivePlayground */;
-			targetProxy = 72A2884018618A2E00DDD30A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		72A2882618618A2E00DDD30A /* InfoPlist.strings */ = {
@@ -397,7 +336,7 @@
 		};
 		72A2884D18618A2E00DDD30A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D7DB8B2BD0B4C6F87D4494B /* Pods.xcconfig */;
+			baseConfigurationReference = F12925D33A4FD21B8854FD97 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -411,7 +350,7 @@
 		};
 		72A2884E18618A2E00DDD30A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D7DB8B2BD0B4C6F87D4494B /* Pods.xcconfig */;
+			baseConfigurationReference = C3325A1C216DF9324EAC0F1D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -420,46 +359,6 @@
 				INFOPLIST_FILE = "RWReactivePlayground/RWReactivePlayground-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		72A2885018618A2E00DDD30A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RWReactivePlayground.app/RWReactivePlayground";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RWReactivePlayground/RWReactivePlayground-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "RWReactivePlaygroundTests/RWReactivePlaygroundTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		72A2885118618A2E00DDD30A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RWReactivePlayground.app/RWReactivePlayground";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RWReactivePlayground/RWReactivePlayground-Prefix.pch";
-				INFOPLIST_FILE = "RWReactivePlaygroundTests/RWReactivePlaygroundTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -480,15 +379,6 @@
 			buildConfigurations = (
 				72A2884D18618A2E00DDD30A /* Debug */,
 				72A2884E18618A2E00DDD30A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		72A2884F18618A2E00DDD30A /* Build configuration list for PBXNativeTarget "RWReactivePlaygroundTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				72A2885018618A2E00DDD30A /* Debug */,
-				72A2885118618A2E00DDD30A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
